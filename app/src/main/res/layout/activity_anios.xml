@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Anios">
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOS DATOS SON LOS SIGUIENTES"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginBottom="55sp"
+       />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/calendario"
+        android:layout_marginBottom="25sp"/>
+
+    <TextView
+        android:id="@+id/Valor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/Valor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="....."
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/Valor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="....."
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:layout_marginBottom="55sp"
+        android:layout_margin="25sp"/>
+</LinearLayout>
